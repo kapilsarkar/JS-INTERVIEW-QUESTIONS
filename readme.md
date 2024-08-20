@@ -1,53 +1,53 @@
-### JAVA SCRIPT INTERVIEW QUESTIONS :
+### ⭐ JAVA SCRIPT INTERVIEW QUESTIONS ❓ :
 
-1. What is `Java script` ?
+ 💥1.  What is `Java script` ❓
 
-  - `Java Script` is a programming language that is primarily used for creating interactive  web pages and web applications.
+  - 🎯 `Java Script` is a programming language that is primarily used for creating interactive  web pages and web applications.
 
-2. What are features of `Java Script` ?
+💥 2. What are features of `Java Script` ❓
 
-  - Some key features of Java Script 
+  - 🎯 Some key features of Java Script 
 
-    - It is a `client side` scripting language.
+    - 👍It is a `client side` scripting language.
 
-    - It is `interpreted` and `dynamically` typed.
+    - 👍It is `interpreted` and `dynamically` typed.
 
-    - It supports `object oriented programming`.
+    - 👍It supports `object oriented programming`.
 
-    - It provides a rich set of build in `functions` and `libraries`.
+    - 👍It provides a rich set of build in `functions` and `libraries`.
 
-  3. Why `Java Script` is called client side scripting language ?
+  💥 3. Why `Java Script` is called client side scripting language ❓
 
-  - `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
+  - 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
 
-  4. Why `Java Script` is considered as `interpreted` and `dynamically` typed ?
+  💥 4. Why `Java Script` is considered as `interpreted` and `dynamically` typed ❓
 
-  - `Compiled`: `Java Script` is considered compiled because modern JavaScript engines use `Just-In-Time (JIT)` compilation, converting JavaScript code to machine code at runtime, which enhances performance.
+  - 🎯 `Compiled`: `Java Script` is considered compiled because modern JavaScript engines use `Just-In-Time (JIT)` compilation, converting JavaScript code to machine code at runtime, which enhances performance.
 
-  - `Dynamically Typed`: `Java Script` is dynamically typed because variables can hold values of any type at any time, and their types are determined at runtime, allowing for flexible and rapid development but requiring careful handling to avoid runtime errors.
+  - 🎯 `Dynamically Typed`: `Java Script` is dynamically typed because variables can hold values of any type at any time, and their types are determined at runtime, allowing for flexible and rapid development but requiring careful handling to avoid runtime errors.
 
-  5. `Java Script`  is a `compiled` or `interpreted` language ?
+  💥 5. `Java Script`  is a `compiled` or `interpreted` language ❓
 
-  - `Java Script` is a compiled language but java script is not purely interpreted language.
+  - 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
 
-    - `Interpreted :` Code is not being read at all and execution is started.
+    - 👍`Interpreted :` Code is not being read at all and execution is started.
 
-    - `Compiled :` Code is read at least once and then only it starts execution. 
+    - 👍`Compiled :` Code is read at least once and then only it starts execution. 
 
-  6. What are different `data types` in `Java Script` ?  
+  💥 6. What are different `data types` in `Java Script` ❓  
 
-  - In `Java Script`  data types are categorized into 2 main types `primitive` and `non-primitive`
+  - 🎯In `Java Script`  data types are categorized into 2 main types `primitive` and `non-primitive`
 
-    - `Primitive` Data Types :
+    - 👍`Primitive` Data Types :
 
-       - `Immutable :` The actual value cannot be changed.
+       - 👍`Immutable :` The actual value cannot be changed.
 
-       - `Stored by value :` The variable holds the actual data.
+       - 👍`Stored by value :` The variable holds the actual data.
 
-       - `Comparison :` When you compare two primitive values, you compare their actual data.
+       - 👍`Comparison :` When you compare two primitive values, you compare their actual data.
 
 
-      - 1. `String :` Represents a sequence of characters.
+      - 1. 👍`String :` Represents a sequence of characters.
 
 
       ```
@@ -56,7 +56,7 @@
       Output : Kapil 
       ```
 
-      - 2. `Number :` Represent both integer and floating point numbers.
+      - 2. 👍`Number :` Represent both integer and floating point numbers.
 
 
       ```
@@ -66,7 +66,7 @@
       Output : 32 5.05 
       ```
 
-      - 3. `Boolean :` Represents true or false values.
+      - 3. `👍Boolean :` Represents true or false values.
 
       
       ```
@@ -76,7 +76,7 @@
       Output : true false
       ```
 
-      - 4. `Undefined :` A variable that has been declared but not assigned a value.
+      - 4. 👍`Undefined :` A variable that has been declared but not assigned a value.
       
       
       ```
@@ -85,7 +85,7 @@
       Output : undefined
        ```
 
-      - 5. `Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
+      - 5. 👍`Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
 
 
       ```
@@ -94,28 +94,28 @@
       Output : null
       ```
 
-      - `null` vs `undefined` 
+      - 👍`null` vs `undefined` 
 
-      - `undefined :`
+      - 👍`undefined :`
 
-        - When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
+        - 👍When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
 
-        - Accessing an object property or array element that does not exist also results in undefined.
+        - 👍Accessing an object property or array element that does not exist also results in undefined.
 
-        - It is a primitive value.
+        - 👍It is a primitive value.
 
-      - `null :`
+      - 👍`null :`
 
-        - It is a deliberate assignment that represents the absence of any object value.
+        - 👍It is a deliberate assignment that represents the absence of any object value.
 
-        - It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
+        - 👍It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
 
-        - It is also a primitive value.
+        - 👍It is also a primitive value.
 
-        `Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null 
+        👍`Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null 
 
 
-        - 6. `Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
+        - 6. 👍`Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
 
 
         ```
@@ -124,15 +124,15 @@
         Output : Symbol(description)
         ``` 
 
-    - `No Primitive (Reference)` Data Types : 
+    - 👍`No Primitive (Reference)` Data Types : 
 
-       - `Mutable :` The contents can be altered.
+       - 👍`Mutable :` The contents can be altered.
 
-       - `Stored by reference :` The variable holds a reference to the location in memory where the data is stored, not the actual data itself.
+       - 👍`Stored by reference :` The variable holds a reference to the location in memory where the data is stored, not the actual data itself.
 
-       - `Comparison :` When you compare two non-primitive values, you compare their references, not the actual data.
+       - 👍`Comparison :` When you compare two non-primitive values, you compare their references, not the actual data.
 
-      - 1. `Object :` Collections of key-value pairs. Objects can represent complex data structures.
+      - 1. 👍`Object :` Collections of key-value pairs. Objects can represent complex data structures.
 
 
       ```
@@ -141,7 +141,7 @@
       Output : { name: 'Hrithik', age: 30 }
       ```
 
-      - 2. `Array :` A special type of object used for storing ordered collections of data.
+      - 2. 👍`Array :` A special type of object used for storing ordered collections of data.
 
 
       ```
@@ -150,7 +150,7 @@
       Output :  [ 1, 2, 3, 4 ]
       ```
 
-      - 3. `Function :` Objects that can be called to perform actions.
+      - 3. 👍`Function :` Objects that can be called to perform actions.
 
 
       ```
@@ -161,7 +161,7 @@
       Output :  Hello!
       ```
 
-      - 4. `Date :` Represents dates and times.
+      - 4. 👍`Date :` Represents dates and times.
 
       ```
 

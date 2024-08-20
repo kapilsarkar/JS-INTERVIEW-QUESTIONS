@@ -4,6 +4,8 @@
 
   - 🎯 `Java Script` is a programming language that is primarily used for creating interactive  web pages and web applications.
 
+  ---
+
 💥 2. What are features of `Java Script` ❓
 
   - 🎯 Some key features of Java Script 
@@ -16,9 +18,13 @@
 
     - 👍It provides a rich set of build in `functions` and `libraries`.
 
+    ---
+
   💥 3. Why `Java Script` is called client side scripting language ❓
 
   - 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
+
+---
 
   💥 4. Why `Java Script` is considered as `interpreted` and `dynamically` typed ❓
 
@@ -26,13 +32,19 @@
 
   - 🎯 `Dynamically Typed`: `Java Script` is dynamically typed because variables can hold values of any type at any time, and their types are determined at runtime, allowing for flexible and rapid development but requiring careful handling to avoid runtime errors.
 
+  ---
+
+
   💥 5. `Java Script`  is a `compiled` or `interpreted` language ❓
 
   - 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
 
     - 👍`Interpreted :` Code is not being read at all and execution is started.
 
-    - 👍`Compiled :` Code is read at least once and then only it starts execution. 
+    - 👍`Compiled :` Code is read at least once and then only it starts execution.
+
+    ---
+
 
   💥 6. What are different `data types` in `Java Script` ❓  
 

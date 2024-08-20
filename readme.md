@@ -50,7 +50,7 @@
 
   - 🎯In `Java Script`  data types are categorized into 2 main types `primitive` and `non-primitive`
 
-    - 👍`Primitive` Data Types :
+    - 👍`Primitive` Data Type Features :
 
        - 👍`Immutable :` The actual value cannot be changed.
 
@@ -58,6 +58,9 @@
 
        - 👍`Comparison :` When you compare two primitive values, you compare their actual data.
 
+       ---
+
+    - 👍`Primitive` Data Types :
 
       - 1. 👍`String :` Represents a sequence of characters.
 
@@ -105,7 +108,7 @@
       console.log(myVariable)
       Output : null
       ```
-
+    ---
       - 👍`null` vs `undefined` 
 
       - 👍`undefined :`
@@ -115,6 +118,8 @@
         - 👍Accessing an object property or array element that does not exist also results in undefined.
 
         - 👍It is a primitive value.
+
+        ---
 
       - 👍`null :`
 
@@ -134,7 +139,9 @@
         let sym = Symbol('description');
         console.log(sym)
         Output : Symbol(description)
-        ``` 
+        ```
+
+        --- 
 
     - 👍`No Primitive (Reference)` Data Types : 
 

@@ -49,6 +49,7 @@
 
       - 1. `String :` Represents a sequence of characters.
 
+
       ```
       let name = "Kapil"
       console.log(name)
@@ -56,6 +57,7 @@
       ```
 
       - 2. `Number :` Represent both integer and floating point numbers.
+
 
       ```
       let age = 32
@@ -65,6 +67,7 @@
       ```
 
       - 3. `Boolean :` Represents true or false values.
+
       
       ```
       let isLoggedIn = true
@@ -75,6 +78,7 @@
 
       - 4. `Undefined :` A variable that has been declared but not assigned a value.
       
+      
       ```
       let x 
       console.log(x)
@@ -82,6 +86,7 @@
        ```
 
       - 5. `Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
+
 
       ```
       let myVariable = null
@@ -112,6 +117,7 @@
 
         - 6. `Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
 
+
         ```
         let sym = Symbol('description');
         console.log(sym)
@@ -128,6 +134,7 @@
 
       - 1. `Object :` Collections of key-value pairs. Objects can represent complex data structures.
 
+
       ```
       let person = { name: "Hrithik", age: 30 };
       console.log(person)
@@ -136,6 +143,7 @@
 
       - 2. `Array :` A special type of object used for storing ordered collections of data.
 
+
       ```
       let numbers = [1, 2, 3, 4];
       console.log(numbers)
@@ -143,6 +151,7 @@
       ```
 
       - 3. `Function :` Objects that can be called to perform actions.
+
 
       ```
       function hello() {
@@ -155,6 +164,7 @@
       - 4. `Date :` Represents dates and times.
 
       ```
+
       let today = new Date();
       console.log(today)
       Output : 2024-08-20T02:56:02.904Z

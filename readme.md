@@ -26,11 +26,21 @@
 
 ---
 
-  💥 4. Why `Java Script` is considered as `interpreted` and `dynamically` typed ❓
+  💥 4. Is `Java Script` a `dynamically` typed language or a `statically` typed language ❓
 
-  - 🎯 `Compiled`: `Java Script` is considered compiled because modern JavaScript engines use `Just-In-Time (JIT)` compilation, converting JavaScript code to machine code at runtime, which enhances performance.
+  - 🎯 `Java Script` is a `dynamically` typed language.
 
-  - 🎯 `Dynamically Typed`: `Java Script` is dynamically typed because variables can hold values of any type at any time, and their types are determined at runtime, allowing for flexible and rapid development but requiring careful handling to avoid runtime errors.
+  - 🎯 It means all type checks are done at run time ( When program is executing )
+
+  - 🎯 So, we can just assign anything to the variable and it works fine.
+
+  ```
+  let a;
+  a = 0;
+  console.log(a) // Output: 0
+  a = "Hello"
+  console.log(a) // Output: "Hello"
+  ```
 
   ---
 

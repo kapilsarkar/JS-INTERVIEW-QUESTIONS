@@ -206,7 +206,7 @@
 
 - 🎯 In `Java Script`, variables and functions can be used before declaring it. The `Java Script` compiler moves all the declarations of variables and functions on top. so there will not be any error. This is called hoisting.
 
-- 1. 👍 `Variable Hoisting:` When we declare a variable using `var`, the declaration is `hoisted` to the top of its scope, but the assignment is not.
+- 1. 👍 `Variable Hoisting:` When we declare a variable using `var`, the declaration is `hoisted` to the top of its scope, but the assignment is not yet initialized.
 
 ```
 console.log(x); // Output: undefined

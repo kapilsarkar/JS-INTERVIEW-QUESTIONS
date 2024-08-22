@@ -198,6 +198,102 @@
       console.log(today)
       Output : 2024-08-20T02:56:02.904Z
       ```
+---
+
+💥 7. What is `Hoisting` in `Java Script` ❓
+
+- 🎯 In other scripting/server side languages, `variables` or `functions` must be declared before using it.
+
+- 🎯 In `Java Script`, variables and functions can be used before declaring it. The `Java Script` compiler moves all the declarations of variables and functions on top. so there will not be any error. This is called hoisting.
+
+- 1. 👍 `Variable Hoisting:` When we declare a variable using `var`, the declaration is `hoisted` to the top of its scope, but the assignment is not.
+
+```
+console.log(x); // Output: undefined
+var x = 5;
+console.log(x); // Output: 5
+```
+
+  In the above example, the declaration of `x` is `hoisted` to the top, so it exists before the `console.log(x)` statement is executed. However, since the assignment happens later, `x `is undefined at the time of the first `console.log`.
+
+`let` and `const` also have their declarations `hoisted`, but they are not initialized until their actual declaration is reached in the code. This leads to a `temporal dead zone` where accessing the variable before its declaration results in a ReferenceError.
+
+```
+console.log(y); // ReferenceError: Cannot access 'y' before initialization
+let y = 10;
+```
+
+- 2. 👍 `Function Hoisting :` `Function` declarations are `hoisted` entirely, meaning both the `function` name and the `function` body are moved to the top of the `scope`.
+
+```
+console.log(myFunction()); // Output: "Hello, world!"
+
+function myFunction() {
+  return "Hello, world!";
+}
+```
+
+In this case, the entire function `myFunction` is `hoisted`, so it can be called before its declaration in the code.
+
+---
+
+💥 8. What are the differences `let`, `var` and `const`❓
+
+- 🎯 `Scope :` 
+
+     - 👍 Variables declared with var are function scoped.( available through out the function where its declared ) or global scoped( if defined outside the function ).
+
+     - 👍 Variables declared with let and const are block scoped.
+
+- 🎯 `Reassignment :` 
+
+    - 👍 `var` and `let` can be reassigned.
+
+    - 👍 `const` cannot be reassigned.
+
+- 🎯 `Hoisting :` 
+
+     - 👍 `var` gets hoisted and initialized with `undefined`.
+
+
+     - 👍 `let` and `const` - gets `hoisted` to the top of the scope but does not get assigned any value.`(temporal dead zone)`.
+
+---
+
+💥 9. What is `temporal dead zone` ❓
+
+- 🎯 It is a specific time period in the execution of javascript code where the variables declared with let and const exists but cannot be accessed until the value is assigned.
+
+- 🎯Any attempt to access them result in reference errors.
+
+- 👍 `Example with let :` 
+
+```
+console.log(x); // ReferenceError: Cannot access 'x' before initialization
+let x = 5;
+console.log(x); // Output: 5
+```
+- 👍 The variable `x`is declared with `let`.
+
+- 👍 The `console.log(x)` before the declaration tries to access x while it's still in the `Temporal Dead Zone`, causing a `ReferenceError`.
+
+- 👍After the declaration, `x` is initialized with the value 5, so it can be accessed normally.
+
+
+- 🎯 `let` vs. `var:` Variables declared with var are `hoisted` and initialized with `undefined` immediately, so they do not have a `Temporal Dead Zone`.
+
+- 👍 `Example with const :` 
+
+```
+console.log(y); // ReferenceError: Cannot access 'y' before initialization
+const y = 10;
+console.log(y); // Output: 10
+```
+
+- 👍 Just like with `let`, trying to access `y `before its declaration causes a ReferenceError because `y` is in its `Temporal Dead Zone`.
+
+
+
 
 
     

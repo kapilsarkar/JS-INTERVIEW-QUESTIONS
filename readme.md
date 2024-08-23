@@ -292,6 +292,8 @@ console.log(y); // Output: 10
 
 - 👍 Just like with `let`, trying to access `y `before its declaration causes a ReferenceError because `y` is in its `Temporal Dead Zone`.
 
+---
+
 💥 10. List out some key features of `ES6`  ❓
 
 - 🎯 Firstly  `ES6:` ES6, or ECMAScript 2015, is the sixth edition of the ECMAScript language specification. It introduced significant features and improvements to JavaScript, making the language more powerful and easier to use. 
@@ -316,6 +318,7 @@ console.log(y); // Output: 10
 
 - 🎯 `Map, Set, Weakmap, Weakset`.
 
+---
 
 💥 11. What are `Arrow` Functions and `limitations` of `arrow` functions in Java Script ❓
 
@@ -340,6 +343,7 @@ const functionName = (parameters) => {
   - 👍 Arrow functions cannot be used as constructors. Using them with the 𝙣𝙚𝙬 keyword to create instances throws a TypeError.
 
   - 👍 Arrow functions cannot be used as generator functions.
+---
 
 💥 12. `Arrow` functions + `this` combination ❓
 
@@ -356,7 +360,7 @@ function Person(name) {
 }
 ```
 
-
+---
 
 
 

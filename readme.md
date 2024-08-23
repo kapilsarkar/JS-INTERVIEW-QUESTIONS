@@ -292,6 +292,72 @@ console.log(y); // Output: 10
 
 - 👍 Just like with `let`, trying to access `y `before its declaration causes a ReferenceError because `y` is in its `Temporal Dead Zone`.
 
+💥 10. List out some key features of `ES6`  ❓
+
+- 🎯 Firstly  `ES6:` ES6, or ECMAScript 2015, is the sixth edition of the ECMAScript language specification. It introduced significant features and improvements to JavaScript, making the language more powerful and easier to use. 
+
+- 🎯 `Arrow` functions.
+
+- 🎯 `Let` and `Const` declarations.
+
+- 🎯 `Destructuring` assignment.
+
+- 🎯 `Default` parameters.
+
+- 🎯 `Template literals`.
+
+- 🎯 `Spread` and `Rest` operators.
+
+- 🎯 `Promises`.
+
+- 🎯 `Classes`.
+
+- 🎯 `Modules`.
+
+- 🎯 `Map, Set, Weakmap, Weakset`.
+
+
+💥 11. What are `Arrow` Functions and `limitations` of `arrow` functions in Java Script ❓
+
+- 🎯 `Arrow Functions:`  `Arrow` functions in Java Script, introduced in `ES6`, . They are simple and shorter way to write functions in javascript..
+
+- `Syntax:` 
+
+```
+const functionName = (parameters) => {
+  // function body
+};
+```
+
+- 🎯 `Limitations of Arrow Functions:`
+
+  - 👍 Arrow functions cannot be accessed before initialization.
+
+  - 👍 Arrow function does not have access to arguments object.
+
+  - 👍 Arrow function does not have their own this. Instead, they inherit this from the surrounding code at the time the function is defined.
+
+  - 👍 Arrow functions cannot be used as constructors. Using them with the 𝙣𝙚𝙬 keyword to create instances throws a TypeError.
+
+  - 👍 Arrow functions cannot be used as generator functions.
+
+💥 12. `Arrow` functions + `this` combination ❓
+
+- 🎯 In Java Script, this refers to the object that is executing the current function. The value of this is determined by how a function is called.
+
+- 🎯 `this` in `Arrow` Functions :
+
+- 🎯 `Arrow` functions, do not have their own `this` context. Instead, they `lexically bind` this.
+meaning they capture this from the surrounding scope when they are defined.
+
+```
+function Person(name) {
+  this.name = name;
+}
+```
+
+
+
 
 
 

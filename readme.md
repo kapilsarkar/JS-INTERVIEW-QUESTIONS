@@ -236,8 +236,19 @@ function myFunction() {
 In this case, the entire function `myFunction` is `hoisted`, so it can be called before its declaration in the code.
 
 ---
+💥 8. What are the various things `hoisted` in Java Script ?❓
+-  🎯 The various thing that are histed :
+```
+ Function declarations: Fully hoisted.
+  var - Hoisted
+  Arrow functions: Not hoisted
+  Anonymous Function expressions: Not hoisted
+  let and const - Hoisted but not initialized. (Temporal dead zone).
+  class declarations - Hoisted but not initialized.
+```
+---
 
-💥 8. What are the differences `let`, `var` and `const`❓
+💥 9. What are the differences `let`, `var` and `const`❓
 
 - 🎯 `Scope :` 
 
@@ -260,7 +271,7 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 ---
 
-💥 9. What is `temporal dead zone` ❓
+💥 10. What is `temporal dead zone` ❓
 
 - 🎯 It is a specific time period in the execution of javascript code where the variables declared with let and const exists but cannot be accessed until the value is assigned.
 
@@ -294,7 +305,7 @@ console.log(y); // Output: 10
 
 ---
 
-💥 10. List out some key features of `ES6`  ❓
+💥 11. List out some key features of `ES6`  ❓
 
 - 🎯 Firstly  `ES6:` ES6, or ECMAScript 2015, is the sixth edition of the ECMAScript language specification. It introduced significant features and improvements to JavaScript, making the language more powerful and easier to use. 
 
@@ -320,7 +331,7 @@ console.log(y); // Output: 10
 
 ---
 
-💥 11. What are `Arrow` Functions and `limitations` of `arrow` functions in Java Script ❓
+💥 12. What are `Arrow` Functions and `limitations` of `arrow` functions in Java Script ❓
 
 - 🎯 `Arrow Functions:`  `Arrow` functions in Java Script, introduced in `ES6`, . They are simple and shorter way to write functions in javascript..
 
@@ -345,7 +356,7 @@ const functionName = (parameters) => {
   - 👍 Arrow functions cannot be used as generator functions.
 ---
 
-💥 12. `Arrow` functions + `this` combination ❓
+💥 13. `Arrow` functions + `this` combination ❓
 
 - 🎯 In Java Script, this refers to the object that is executing the current function. The value of this is determined by how a function is called.
 
@@ -359,9 +370,89 @@ function Person(name) {
   this.name = name;
 }
 ```
-
 ---
 
+
+💥 14. What is `Lexical Scope` ❓
+
+- 🎯 It can explained with an example :
+
+```
+function parent() {
+  const parentName = "Indira Gandhi";
+
+  function child() {
+    const childName = "Rajiv Gandhi";
+
+    console.log(`Child Name :${childName}`);
+    console.log(`Parent Name : ${parentName}`);
+
+    function grandChild() {
+      const grandChild = "Rahul Gandhi";
+      console.log(`Grand Child : ${grandChild}`);
+      console.log(`Child Name :${childName}`);
+      console.log(`Parent Name : ${parentName}`);
+    }
+    grandChild();
+  }
+  child();
+}
+parent();
+
+Output :
+
+Child Name :Rajiv Gandhi
+Parent Name : Indira Gandhi
+Grand Child : Rahul Gandhi
+Child Name :Rajiv Gandhi
+Parent Name : Indira Gandhi
+```
+
+- 🎯 So in the above example the function `child()` has access to the variable of function `parent()` which is `parentName`
+
+- 🎯 The function `grandChild()` has got the access to the variables of both the function `parent()` and function `child()` so this called `lexical scope`.
+---
+
+💥 15. What’s the `spread operator` in Java Script ❓
+
+- 🎯 `Spread` operator is used to spread or expand the elements of an iterable like array or string into individual elements.
+
+- 🎯 `Uses :` 
+
+  - 👍 Concatenating arrays.
+
+  ```
+  let x = [1, 2];
+  let y = [3, 4];
+
+  let z = [...x, ...y];
+  console.log(`Result of both by using spread operators : ${z}`);
+
+  Output :
+  Result of both by using spread operators : 1,2,3,4
+  ```
+
+   - 👍 Copying arrays or objects.
+
+   ```
+    let a = [...x];
+    console.log(a);
+
+    Output :
+    [ 1, 2 ]
+   ```
+
+   - 👍Passing array of values as individual arguments to a function.
+
+   ```
+     function spreadExample(arg1,arg2){
+     console.log(arg1,arg2)
+    }
+    spreadExample(...a)
+
+    Output :
+     1 2
+   ```
 
 
 

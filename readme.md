@@ -18,7 +18,7 @@
 
   - 🎯It provides a rich set of build in `functions` and `libraries`.
 
-    ---
+---
 
   💥 3. Why `Java Script` is called client side scripting language ❓
 
@@ -461,10 +461,27 @@ Parent Name : Indira Gandhi
     Output :
      1 2
    ```
+---
 
 💥 16. What’s the `rest operator` in Java Script ❓
 
 - 🎯 `Rest operator` is used to condense multiple elements into single array or object.
+
+- 🎯 This is useful when we dont know how many parameters a function may receive and you want to capture all of them as an array.
+
+```
+function restExample(...input){
+    let sum = 0;
+    for(let i  of input){
+        sum += i
+    }
+     console.log(sum)
+}
+
+restExample(1,2) //3
+restExample(1,2,3,4,5) //15
+restExample(1,2,10,30,50,60) //153
+```
 
 
 

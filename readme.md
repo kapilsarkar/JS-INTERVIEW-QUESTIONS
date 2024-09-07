@@ -4,7 +4,7 @@
 
   - 🎯 `Java Script` is a programming language that is primarily used for creating interactive  web pages and web applications.
 
-  ---
+---
 
 💥 2. What are features of `Java Script` ❓
 
@@ -53,7 +53,7 @@
 
   - 🎯`Compiled :` Code is read at least once and then only it starts execution.
 
-    ---
+---
 
 
   💥 6. What are different `data types` in `Java Script` ❓  
@@ -68,7 +68,7 @@
 
   - 🎯 `Comparison :` When you compare two primitive values, you compare their actual data.
 
-       ---
+---
 
   - 🎯 `Primitive` Data Types :
 

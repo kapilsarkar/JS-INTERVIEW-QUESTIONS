@@ -8,15 +8,15 @@
 
 💥 2. What are features of `Java Script` ❓
 
-  - 🎯 Some key features of Java Script 
+  - 🎯 Some key features of Java Script :
 
-    - 👍It is a `client side` scripting language.
+  - 🎯It is a `client side` scripting language.
 
-    - 👍It is `interpreted` and `dynamically` typed.
+  - 🎯It is `interpreted` and `dynamically` typed.
 
-    - 👍It supports `object oriented programming`.
+  - 🎯It supports `object oriented programming`.
 
-    - 👍It provides a rich set of build in `functions` and `libraries`.
+  - 🎯It provides a rich set of build in `functions` and `libraries`.
 
     ---
 
@@ -49,9 +49,9 @@
 
   - 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
 
-    - 👍`Interpreted :` Code is not being read at all and execution is started.
+  - 🎯`Interpreted :` Code is not being read at all and execution is started.
 
-    - 👍`Compiled :` Code is read at least once and then only it starts execution.
+  - 🎯`Compiled :` Code is read at least once and then only it starts execution.
 
     ---
 
@@ -60,19 +60,20 @@
 
   - 🎯In `Java Script`  data types are categorized into 2 main types `primitive` and `non-primitive`
 
-    - 👍`Primitive` Data Type Features :
+  - 🎯`Primitive` Data Type Features :
 
-       - 👍`Immutable :` The actual value cannot be changed.
+  - 🎯 `Immutable :` The actual value cannot be changed.
 
-       - 👍`Stored by value :` The variable holds the actual data.
+  - 🎯 `Stored by value :` The variable holds the actual data.
 
-       - 👍`Comparison :` When you compare two primitive values, you compare their actual data.
+  - 🎯 `Comparison :` When you compare two primitive values, you compare their actual data.
 
        ---
 
-    - 👍`Primitive` Data Types :
+  - 🎯 `Primitive` Data Types :
 
-      - 1. 👍`String :` Represents a sequence of characters.
+  - 1. 🎯 `String :` Represents a sequence of characters.
+
 
 
       ```
@@ -81,7 +82,7 @@
       Output : Kapil 
       ```
 
-      - 2. 👍`Number :` Represent both integer and floating point numbers.
+  - 2. 🎯 `Number :` Represent both integer and floating point numbers.
 
 
       ```
@@ -91,7 +92,7 @@
       Output : 32 5.05 
       ```
 
-      - 3. `👍Boolean :` Represents true or false values.
+  - 3. `🎯 Boolean :` Represents true or false values.
 
       
       ```
@@ -101,7 +102,7 @@
       Output : true false
       ```
 
-      - 4. 👍`Undefined :` A variable that has been declared but not assigned a value.
+  - 4. 🎯 `Undefined :` A variable that has been declared but not assigned a value.
       
       
       ```
@@ -110,7 +111,7 @@
       Output : undefined
        ```
 
-      - 5. 👍`Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
+   - 5. 🎯 `Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
 
 
       ```
@@ -118,31 +119,35 @@
       console.log(myVariable)
       Output : null
       ```
-    ---
-      - 👍`null` vs `undefined` 
 
-      - 👍`undefined :`
-
-        - 👍When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
-
-        - 👍Accessing an object property or array element that does not exist also results in undefined.
-
-        - 👍It is a primitive value.
-
-        ---
-
-      - 👍`null :`
-
-        - 👍It is a deliberate assignment that represents the absence of any object value.
-
-        - 👍It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
-
-        - 👍It is also a primitive value.
-
-        👍`Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null 
+---
 
 
-        - 6. 👍`Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
+ - 🎯 `null` vs `undefined` 
+
+  - 🎯 `undefined :`
+
+  - 🎯 When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
+
+  - 🎯 Accessing an object property or array element that does not exist also results in undefined.
+
+  - 🎯 It is a primitive value.
+
+  ---
+
+  - 🎯 `null :`
+
+  - 🎯 It is a deliberate assignment that represents the absence of any object value.
+
+  - 🎯 It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
+
+  - 🎯 It is also a primitive value.
+
+  - 🎯 `Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null 
+
+
+
+  - 6. 🎯 `Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
 
 
         ```
@@ -151,17 +156,17 @@
         Output : Symbol(description)
         ```
 
-        --- 
+  --- 
 
-    - 👍`No Primitive (Reference)` Data Types : 
+- 🎯 `No Primitive (Reference)` Data Types : 
 
-       - 👍`Mutable :` The contents can be altered.
+- 🎯 `Mutable :` The contents can be altered.
 
-       - 👍`Stored by reference :` The variable holds a reference to the location in memory where the data is stored, not the actual data itself.
+- 🎯 `Stored by reference :` The variable holds a reference to the location in memory where the data is stored, not the actual data itself.
 
-       - 👍`Comparison :` When you compare two non-primitive values, you compare their references, not the actual data.
+- 🎯 `Comparison :` When you compare two non-primitive values, you compare their references, not the actual data.
 
-      - 1. 👍`Object :` Collections of key-value pairs. Objects can represent complex data structures.
+- 1. 🎯 `Object :` Collections of key-value pairs. Objects can represent complex data structures.
 
 
       ```
@@ -170,7 +175,7 @@
       Output : { name: 'Hrithik', age: 30 }
       ```
 
-      - 2. 👍`Array :` A special type of object used for storing ordered collections of data.
+- 2. 🎯 `Array :` A special type of object used for storing ordered collections of data.
 
 
       ```
@@ -179,7 +184,7 @@
       Output :  [ 1, 2, 3, 4 ]
       ```
 
-      - 3. 👍`Function :` Objects that can be called to perform actions.
+- 3. 🎯 `Function :` Objects that can be called to perform actions.
 
 
       ```
@@ -190,7 +195,7 @@
       Output :  Hello!
       ```
 
-      - 4. 👍`Date :` Represents dates and times.
+- 4. 🎯`Date :` Represents dates and times.
 
       ```
 
@@ -206,7 +211,7 @@
 
 - 🎯 In `Java Script`, variables and functions can be used before declaring it. The `Java Script` compiler moves all the declarations of variables and functions on top. so there will not be any error. This is called hoisting.
 
-- 1. 👍 `Variable Hoisting:` When we declare a variable using `var`, the declaration is `hoisted` to the top of its scope, but the assignment is not yet initialized.
+- 1. 🎯 `Variable Hoisting:` When we declare a variable using `var`, the declaration is `hoisted` to the top of its scope, but the assignment is not yet initialized.
 
 ```
 console.log(x); // Output: undefined
@@ -214,7 +219,7 @@ var x = 5;
 console.log(x); // Output: 5
 ```
 
-  In the above example, the declaration of `x` is `hoisted` to the top, so it exists before the `console.log(x)` statement is executed. However, since the assignment happens later, `x `is undefined at the time of the first `console.log`.
+ -  In the above example, the declaration of `x` is `hoisted` to the top, so it exists before the `console.log(x)` statement is executed. However, since the assignment happens later, `x `is undefined at the time of the first `console.log`.
 
 `let` and `const` also have their declarations `hoisted`, but they are not initialized until their actual declaration is reached in the code. This leads to a `temporal dead zone` where accessing the variable before its declaration results in a ReferenceError.
 
@@ -223,7 +228,7 @@ console.log(y); // ReferenceError: Cannot access 'y' before initialization
 let y = 10;
 ```
 
-- 2. 👍 `Function Hoisting :` `Function` declarations are `hoisted` entirely, meaning both the `function` name and the `function` body are moved to the top of the `scope`.
+- 2. 🎯 `Function Hoisting :` `Function` declarations are `hoisted` entirely, meaning both the `function` name and the `function` body are moved to the top of the `scope`.
 
 ```
 console.log(myFunction()); // Output: "Hello, world!"
@@ -237,7 +242,8 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 ---
 💥 8. What are the various things `hoisted` in Java Script ?❓
--  🎯 The various thing that are histed :
+
+-  🎯 The various thing that are hoisted :
 ```
  Function declarations: Fully hoisted.
   var - Hoisted
@@ -252,22 +258,22 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 - 🎯 `Scope :` 
 
-     - 👍 Variables declared with var are function scoped.( available through out the function where its declared ) or global scoped( if defined outside the function ).
+- 🎯 Variables declared with var are function scoped.( available through out the function where its declared ) or global scoped( if defined outside the function ).
 
-     - 👍 Variables declared with let and const are block scoped.
+- 🎯 Variables declared with let and const are block scoped.
 
 - 🎯 `Reassignment :` 
 
-    - 👍 `var` and `let` can be reassigned.
+- 🎯 `var` and `let` can be reassigned.
 
-    - 👍 `const` cannot be reassigned.
+- 🎯 `const` cannot be reassigned.
 
 - 🎯 `Hoisting :` 
 
-     - 👍 `var` gets hoisted and initialized with `undefined`.
+- 🎯 `var` gets hoisted and initialized with `undefined`.
 
 
-     - 👍 `let` and `const` - gets `hoisted` to the top of the scope but does not get assigned any value.`(temporal dead zone)`.
+- 🎯 `let` and `const` - gets `hoisted` to the top of the scope but does not get assigned any value.`(temporal dead zone)`.
 
 ---
 
@@ -275,25 +281,26 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 - 🎯 It is a specific time period in the execution of javascript code where the variables declared with let and const exists but cannot be accessed until the value is assigned.
 
-- 🎯Any attempt to access them result in reference errors.
+- 🎯 Any attempt to access them result in reference errors.
 
-- 👍 `Example with let :` 
+- 🎯 `Example with let :` 
 
 ```
 console.log(x); // ReferenceError: Cannot access 'x' before initialization
 let x = 5;
 console.log(x); // Output: 5
 ```
-- 👍 The variable `x`is declared with `let`.
 
-- 👍 The `console.log(x)` before the declaration tries to access x while it's still in the `Temporal Dead Zone`, causing a `ReferenceError`.
+- 🎯 The variable `x`is declared with `let`.
 
-- 👍After the declaration, `x` is initialized with the value 5, so it can be accessed normally.
+- 🎯 The `console.log(x)` before the declaration tries to access x while it's still in the `Temporal Dead Zone`, causing a `ReferenceError`.
+
+- 🎯 After the declaration, `x` is initialized with the value 5, so it can be accessed normally.
 
 
 - 🎯 `let` vs. `var:` Variables declared with var are `hoisted` and initialized with `undefined` immediately, so they do not have a `Temporal Dead Zone`.
 
-- 👍 `Example with const :` 
+- 🎯 `Example with const :` 
 
 ```
 console.log(y); // ReferenceError: Cannot access 'y' before initialization
@@ -301,7 +308,7 @@ const y = 10;
 console.log(y); // Output: 10
 ```
 
-- 👍 Just like with `let`, trying to access `y `before its declaration causes a ReferenceError because `y` is in its `Temporal Dead Zone`.
+- 🎯 Just like with `let`, trying to access `y `before its declaration causes a ReferenceError because `y` is in its `Temporal Dead Zone`.
 
 ---
 
@@ -345,15 +352,16 @@ const functionName = (parameters) => {
 
 - 🎯 `Limitations of Arrow Functions:`
 
-  - 👍 Arrow functions cannot be accessed before initialization.
+- 🎯 Arrow functions cannot be accessed before initialization.
 
-  - 👍 Arrow function does not have access to arguments object.
+- 🎯 Arrow function does not have access to arguments object.
+ 
+- 🎯 Arrow function does not have their own this. Instead, they inherit this from the surrounding code at the time the function is defined.
 
-  - 👍 Arrow function does not have their own this. Instead, they inherit this from the surrounding code at the time the function is defined.
+- 🎯 Arrow functions cannot be used as constructors. Using them with the 𝙣𝙚𝙬 keyword to create instances throws a TypeError.
 
-  - 👍 Arrow functions cannot be used as constructors. Using them with the 𝙣𝙚𝙬 keyword to create instances throws a TypeError.
+- 🎯 Arrow functions cannot be used as generator functions.
 
-  - 👍 Arrow functions cannot be used as generator functions.
 ---
 
 💥 13. `Arrow` functions + `this` combination ❓
@@ -419,7 +427,7 @@ Parent Name : Indira Gandhi
 
 - 🎯 `Uses :` 
 
-  - 👍 Concatenating arrays.
+- 🎯 Concatenating arrays.
 
   ```
   let x = [1, 2];
@@ -432,7 +440,7 @@ Parent Name : Indira Gandhi
   Result of both by using spread operators : 1,2,3,4
   ```
 
-   - 👍 Copying arrays or objects.
+- 🎯 Copying arrays or objects.
 
    ```
     let a = [...x];
@@ -442,7 +450,7 @@ Parent Name : Indira Gandhi
     [ 1, 2 ]
    ```
 
-   - 👍Passing array of values as individual arguments to a function.
+- 🎯 Passing array of values as individual arguments to a function.
 
    ```
      function spreadExample(arg1,arg2){
@@ -454,6 +462,9 @@ Parent Name : Indira Gandhi
      1 2
    ```
 
+💥 16. What’s the `rest operator` in Java Script ❓
+
+- 🎯 `Rest operator` is used to condense multiple elements into single array or object.
 
 
 

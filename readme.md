@@ -483,6 +483,20 @@ restExample(1,2,3,4,5) //15
 restExample(1,2,10,30,50,60) //153
 ```
 
+---
+
+💥17. Key differences between `spread` and `rest` operator in Java Script ❓
+
+- 🎯 `Spread Operator - Use Cases `: Arrays, Function Calls, Objects.
+
+- 🎯 `Spread Operator - Purpose ` :  Expands elements or properties.
+
+- 🎯 `Rest Operator - Use Cases` : Function Parameters, Array/Object Destructuring.
+
+- 🎯 `Rest Operator - Purpose ` : Collects multiple elements into an array/object
+ 
+
+
 
 
     

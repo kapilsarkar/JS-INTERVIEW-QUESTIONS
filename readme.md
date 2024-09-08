@@ -5,16 +5,33 @@
 <!-- TOC_START -->
 | No. | Questions |
 | --- | --------- |
-| 1 | [What is Java Script](#What is Java Script) |
-| 2 | [What are features of Java Script](#What are features of Java Script) |
+| 1 | What is Java Script|
+| 2 | What are features of Java Script|
+| 3 | Why Java Script is called client side scripting language|
+| 4 | Is Java Script a dynamically typed language or a statically typed language |
+| 5 | Java Script is a compiled or interpreted language |
+| 6 | What are different data types in Java Script |
+| 7 | What is Hoisting in Java Script |
+| 8 | What are the various things hoisted in Java Script |
+| 9 | What are the differences let, var and const|
+| 10 | What is temporal dead zone|
+| 11 | List out some key features of ES6|
+| 12 | What are Arrow Functions and limitations of arrow functions in Java Script|
+| 13 | Arrow functions + this combination |
+| 14 | What is Lexical Scope|
+| 15 | What’s the spread operator in Java Script|
+| 16 | What’s the rest operator in Java Script|
+| 17 | Key differences between spread and rest operator in Java Script |
+| 18 | What is destructuring |
 
-💥1.  ### What is `Java Script` ❓
+---
+💥1.   What is `Java Script` ❓
 
 - 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 ---
 
-💥 2. ### What are features of `Java Script` ❓
+💥 2.  What are features of `Java Script` ❓
 
 - 🎯 Some key features of Java Script :
 
@@ -236,7 +253,7 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 ---
 
-💥 8. What are the various things `hoisted` in Java Script ?❓
+💥 8. What are the various things `hoisted` in Java Script ❓
 
 - 🎯 The various thing that are hoisted :
 

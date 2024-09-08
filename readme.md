@@ -1,12 +1,20 @@
 ### ⭐ JAVA SCRIPT INTERVIEW QUESTIONS ❓ :
 
-💥1. What is `Java script` ❓
+### Table of Contents
+
+<!-- TOC_START -->
+| No. | Questions |
+| --- | --------- |
+| 1 | [What is Java Script](#What is Java Script) |
+| 2 | [What are features of Java Script](#What are features of Java Script) |
+
+💥1.  ### What is `Java Script` ❓
 
 - 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 ---
 
-💥 2. What are features of `Java Script` ❓
+💥 2. ### What are features of `Java Script` ❓
 
 - 🎯 Some key features of Java Script :
 

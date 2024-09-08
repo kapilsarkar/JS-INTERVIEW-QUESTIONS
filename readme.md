@@ -1,164 +1,152 @@
 ### ⭐ JAVA SCRIPT INTERVIEW QUESTIONS ❓ :
 
- 💥1.  What is `Java script` ❓
+💥1. What is `Java script` ❓
 
-  - 🎯 `Java Script` is a programming language that is primarily used for creating interactive  web pages and web applications.
+- 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 ---
 
 💥 2. What are features of `Java Script` ❓
 
-  - 🎯 Some key features of Java Script :
+- 🎯 Some key features of Java Script :
 
-  - 🎯It is a `client side` scripting language.
+- 🎯It is a `client side` scripting language.
 
-  - 🎯It is `interpreted` and `dynamically` typed.
+- 🎯It is `interpreted` and `dynamically` typed.
 
-  - 🎯It supports `object oriented programming`.
+- 🎯It supports `object oriented programming`.
 
-  - 🎯It provides a rich set of build in `functions` and `libraries`.
-
----
-
-  💥 3. Why `Java Script` is called client side scripting language ❓
-
-  - 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
+- 🎯It provides a rich set of build in `functions` and `libraries`.
 
 ---
 
-  💥 4. Is `Java Script` a `dynamically` typed language or a `statically` typed language ❓
+💥 3. Why `Java Script` is called client side scripting language ❓
 
-  - 🎯 `Java Script` is a `dynamically` typed language.
+- 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
 
-  - 🎯 It means all type checks are done at run time ( When program is executing )
+---
 
-  - 🎯 So, we can just assign anything to the variable and it works fine.
+💥 4. Is `Java Script` a `dynamically` typed language or a `statically` typed language ❓
+
+- 🎯 `Java Script` is a `dynamically` typed language.
+
+- 🎯 It means all type checks are done at run time ( When program is executing )
+
+- 🎯 So, we can just assign anything to the variable and it works fine.
+
+```
+let a;
+a = 0;
+console.log(a) // Output: 0
+a = "Hello"
+console.log(a) // Output: "Hello"
+```
+
+---
+
+💥 5. `Java Script` is a `compiled` or `interpreted` language ❓
+
+- 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
+
+- 🎯`Interpreted :` Code is not being read at all and execution is started.
+
+- 🎯`Compiled :` Code is read at least once and then only it starts execution.
+
+---
+
+💥 6. What are different `data types` in `Java Script` ❓
+
+- 🎯In `Java Script` data types are categorized into 2 main types `primitive` and `non-primitive`
+
+- 🎯`Primitive` Data Type Features :
+
+- 🎯 `Immutable :` The actual value cannot be changed.
+
+- 🎯 `Stored by value :` The variable holds the actual data.
+
+- 🎯 `Comparison :` When you compare two primitive values, you compare their actual data.
+
+---
+
+- 🎯 `Primitive` Data Types :
+
+- 1. 🎯 `String :` Represents a sequence of characters.
 
   ```
-  let a;
-  a = 0;
-  console.log(a) // Output: 0
-  a = "Hello"
-  console.log(a) // Output: "Hello"
+  let name = "Kapil"
+  console.log(name)
+  Output : Kapil
   ```
 
-  ---
+- 2. 🎯 `Number :` Represent both integer and floating point numbers.
 
+  ```
+  let age = 32
+  let price = 5.05
+  console.log(age,price)
+  Output : 32 5.05
+  ```
 
-  💥 5. `Java Script`  is a `compiled` or `interpreted` language ❓
+- 3. `🎯 Boolean :` Represents true or false values.
 
-  - 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
+  ```
+  let isLoggedIn = true
+  let isLoggedOut = false
+  console.log(isLoggedIn,isLoggedOut)
+  Output : true false
+  ```
 
-  - 🎯`Interpreted :` Code is not being read at all and execution is started.
+- 4. 🎯 `Undefined :` A variable that has been declared but not assigned a value.
 
-  - 🎯`Compiled :` Code is read at least once and then only it starts execution.
+  ```
+  let x
+  console.log(x)
+  Output : undefined
+  ```
 
----
+- 5.  🎯 `Null :` Represents the intentional absence of any object value. It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
 
-
-  💥 6. What are different `data types` in `Java Script` ❓  
-
-  - 🎯In `Java Script`  data types are categorized into 2 main types `primitive` and `non-primitive`
-
-  - 🎯`Primitive` Data Type Features :
-
-  - 🎯 `Immutable :` The actual value cannot be changed.
-
-  - 🎯 `Stored by value :` The variable holds the actual data.
-
-  - 🎯 `Comparison :` When you compare two primitive values, you compare their actual data.
-
----
-
-  - 🎯 `Primitive` Data Types :
-
-  - 1. 🎯 `String :` Represents a sequence of characters.
-
-
-
-      ```
-      let name = "Kapil"
-      console.log(name)
-      Output : Kapil 
-      ```
-
-  - 2. 🎯 `Number :` Represent both integer and floating point numbers.
-
-
-      ```
-      let age = 32
-      let price = 5.05
-      console.log(age,price)
-      Output : 32 5.05 
-      ```
-
-  - 3. `🎯 Boolean :` Represents true or false values.
-
-      
-      ```
-      let isLoggedIn = true
-      let isLoggedOut = false
-      console.log(isLoggedIn,isLoggedOut)
-      Output : true false
-      ```
-
-  - 4. 🎯 `Undefined :` A variable that has been declared but not assigned a value.
-      
-      
-      ```
-      let x 
-      console.log(x)
-      Output : undefined
-       ```
-
-   - 5. 🎯 `Null :` Represents the intentional absence of any object value.   It is one of JavaScript's primitive values and is treated as falsy for boolean operations. It signifies that a variable has been declared but does not point to any object or value.
-
-
-      ```
-      let myVariable = null
-      console.log(myVariable)
-      Output : null
-      ```
+  ```
+  let myVariable = null
+  console.log(myVariable)
+  Output : null
+  ```
 
 ---
 
+- 🎯 `null` vs `undefined`
 
- - 🎯 `null` vs `undefined` 
+- 🎯 `undefined :`
 
-  - 🎯 `undefined :`
+- 🎯 When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
 
-  - 🎯 When a variable is declared but not initialized, or when a function does not return a value, the variable or the function’s result is undefined.
+- 🎯 Accessing an object property or array element that does not exist also results in undefined.
 
-  - 🎯 Accessing an object property or array element that does not exist also results in undefined.
+- 🎯 It is a primitive value.
 
-  - 🎯 It is a primitive value.
+---
 
-  ---
+- 🎯 `null :`
 
-  - 🎯 `null :`
+- 🎯 It is a deliberate assignment that represents the absence of any object value.
 
-  - 🎯 It is a deliberate assignment that represents the absence of any object value.
+- 🎯 It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
 
-  - 🎯 It is often used to explicitly indicate that a variable or object property should have no value or no reference to any object.
+- 🎯 It is also a primitive value.
 
-  - 🎯 It is also a primitive value.
+- 🎯 `Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null
 
-  - 🎯 `Conclusion  :` undefined means a variable has been declared but has not yet been assigned a value, whereas null is an assignment value, meaning that a variable has been declared and given the value of null 
+- 6. 🎯 `Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
 
+     ```
+     let sym = Symbol('description');
+     console.log(sym)
+     Output : Symbol(description)
+     ```
 
+---
 
-  - 6. 🎯 `Symbol :` Introduced in ECMAScript 6, it represents a unique and immutable value.
-
-
-        ```
-        let sym = Symbol('description');
-        console.log(sym)
-        Output : Symbol(description)
-        ```
-
-  --- 
-
-- 🎯 `No Primitive (Reference)` Data Types : 
+- 🎯 `No Primitive (Reference)` Data Types :
 
 - 🎯 `Mutable :` The contents can be altered.
 
@@ -168,41 +156,39 @@
 
 - 1. 🎯 `Object :` Collections of key-value pairs. Objects can represent complex data structures.
 
-
-      ```
-      let person = { name: "Hrithik", age: 30 };
-      console.log(person)
-      Output : { name: 'Hrithik', age: 30 }
-      ```
+     ```
+     let person = { name: "Hrithik", age: 30 };
+     console.log(person)
+     Output : { name: 'Hrithik', age: 30 }
+     ```
 
 - 2. 🎯 `Array :` A special type of object used for storing ordered collections of data.
 
-
-      ```
-      let numbers = [1, 2, 3, 4];
-      console.log(numbers)
-      Output :  [ 1, 2, 3, 4 ]
-      ```
+     ```
+     let numbers = [1, 2, 3, 4];
+     console.log(numbers)
+     Output :  [ 1, 2, 3, 4 ]
+     ```
 
 - 3. 🎯 `Function :` Objects that can be called to perform actions.
 
-
-      ```
-      function hello() {
-      console.log("Hello!");
-      }
-      hello()
-      Output :  Hello!
-      ```
+     ```
+     function hello() {
+     console.log("Hello!");
+     }
+     hello()
+     Output :  Hello!
+     ```
 
 - 4. 🎯`Date :` Represents dates and times.
 
-      ```
+     ```
 
-      let today = new Date();
-      console.log(today)
-      Output : 2024-08-20T02:56:02.904Z
-      ```
+     let today = new Date();
+     console.log(today)
+     Output : 2024-08-20T02:56:02.904Z
+     ```
+
 ---
 
 💥 7. What is `Hoisting` in `Java Script` ❓
@@ -219,7 +205,7 @@ var x = 5;
 console.log(x); // Output: 5
 ```
 
- -  In the above example, the declaration of `x` is `hoisted` to the top, so it exists before the `console.log(x)` statement is executed. However, since the assignment happens later, `x `is undefined at the time of the first `console.log`.
+- In the above example, the declaration of `x` is `hoisted` to the top, so it exists before the `console.log(x)` statement is executed. However, since the assignment happens later, `x `is undefined at the time of the first `console.log`.
 
 `let` and `const` also have their declarations `hoisted`, but they are not initialized until their actual declaration is reached in the code. This leads to a `temporal dead zone` where accessing the variable before its declaration results in a ReferenceError.
 
@@ -241,9 +227,11 @@ function myFunction() {
 In this case, the entire function `myFunction` is `hoisted`, so it can be called before its declaration in the code.
 
 ---
+
 💥 8. What are the various things `hoisted` in Java Script ?❓
 
--  🎯 The various thing that are hoisted :
+- 🎯 The various thing that are hoisted :
+
 ```
  Function declarations: Fully hoisted.
   var - Hoisted
@@ -252,26 +240,26 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
   let and const - Hoisted but not initialized. (Temporal dead zone).
   class declarations - Hoisted but not initialized.
 ```
+
 ---
 
 💥 9. What are the differences `let`, `var` and `const`❓
 
-- 🎯 `Scope :` 
+- 🎯 `Scope :`
 
 - 🎯 Variables declared with var are function scoped.( available through out the function where its declared ) or global scoped( if defined outside the function ).
 
 - 🎯 Variables declared with let and const are block scoped.
 
-- 🎯 `Reassignment :` 
+- 🎯 `Reassignment :`
 
 - 🎯 `var` and `let` can be reassigned.
 
 - 🎯 `const` cannot be reassigned.
 
-- 🎯 `Hoisting :` 
+- 🎯 `Hoisting :`
 
 - 🎯 `var` gets hoisted and initialized with `undefined`.
-
 
 - 🎯 `let` and `const` - gets `hoisted` to the top of the scope but does not get assigned any value.`(temporal dead zone)`.
 
@@ -283,7 +271,7 @@ In this case, the entire function `myFunction` is `hoisted`, so it can be called
 
 - 🎯 Any attempt to access them result in reference errors.
 
-- 🎯 `Example with let :` 
+- 🎯 `Example with let :`
 
 ```
 console.log(x); // ReferenceError: Cannot access 'x' before initialization
@@ -297,10 +285,9 @@ console.log(x); // Output: 5
 
 - 🎯 After the declaration, `x` is initialized with the value 5, so it can be accessed normally.
 
-
 - 🎯 `let` vs. `var:` Variables declared with var are `hoisted` and initialized with `undefined` immediately, so they do not have a `Temporal Dead Zone`.
 
-- 🎯 `Example with const :` 
+- 🎯 `Example with const :`
 
 ```
 console.log(y); // ReferenceError: Cannot access 'y' before initialization
@@ -312,9 +299,9 @@ console.log(y); // Output: 10
 
 ---
 
-💥 11. List out some key features of `ES6`  ❓
+💥 11. List out some key features of `ES6` ❓
 
-- 🎯 Firstly  `ES6:` ES6, or ECMAScript 2015, is the sixth edition of the ECMAScript language specification. It introduced significant features and improvements to JavaScript, making the language more powerful and easier to use. 
+- 🎯 Firstly `ES6:` ES6, or ECMAScript 2015, is the sixth edition of the ECMAScript language specification. It introduced significant features and improvements to JavaScript, making the language more powerful and easier to use.
 
 - 🎯 `Arrow` functions.
 
@@ -340,9 +327,9 @@ console.log(y); // Output: 10
 
 💥 12. What are `Arrow` Functions and `limitations` of `arrow` functions in Java Script ❓
 
-- 🎯 `Arrow Functions:`  `Arrow` functions in Java Script, introduced in `ES6`, . They are simple and shorter way to write functions in javascript..
+- 🎯 `Arrow Functions:` `Arrow` functions in Java Script, introduced in `ES6`, . They are simple and shorter way to write functions in javascript..
 
-- `Syntax:` 
+- `Syntax:`
 
 ```
 const functionName = (parameters) => {
@@ -355,7 +342,7 @@ const functionName = (parameters) => {
 - 🎯 Arrow functions cannot be accessed before initialization.
 
 - 🎯 Arrow function does not have access to arguments object.
- 
+
 - 🎯 Arrow function does not have their own this. Instead, they inherit this from the surrounding code at the time the function is defined.
 
 - 🎯 Arrow functions cannot be used as constructors. Using them with the 𝙣𝙚𝙬 keyword to create instances throws a TypeError.
@@ -371,15 +358,15 @@ const functionName = (parameters) => {
 - 🎯 `this` in `Arrow` Functions :
 
 - 🎯 `Arrow` functions, do not have their own `this` context. Instead, they `lexically bind` this.
-meaning they capture this from the surrounding scope when they are defined.
+  meaning they capture this from the surrounding scope when they are defined.
 
 ```
 function Person(name) {
   this.name = name;
 }
 ```
----
 
+---
 
 💥 14. What is `Lexical Scope` ❓
 
@@ -419,13 +406,14 @@ Parent Name : Indira Gandhi
 - 🎯 So in the above example the function `child()` has access to the variable of function `parent()` which is `parentName`
 
 - 🎯 The function `grandChild()` has got the access to the variables of both the function `parent()` and function `child()` so this called `lexical scope`.
+
 ---
 
 💥 15. What’s the `spread operator` in Java Script ❓
 
 - 🎯 `Spread` operator is used to spread or expand the elements of an iterable like array or string into individual elements.
 
-- 🎯 `Uses :` 
+- 🎯 `Uses :`
 
 - 🎯 Concatenating arrays.
 
@@ -442,25 +430,26 @@ Parent Name : Indira Gandhi
 
 - 🎯 Copying arrays or objects.
 
-   ```
-    let a = [...x];
-    console.log(a);
+  ```
+   let a = [...x];
+   console.log(a);
 
-    Output :
-    [ 1, 2 ]
-   ```
+   Output :
+   [ 1, 2 ]
+  ```
 
 - 🎯 Passing array of values as individual arguments to a function.
 
-   ```
-     function spreadExample(arg1,arg2){
-     console.log(arg1,arg2)
-    }
-    spreadExample(...a)
+  ```
+    function spreadExample(arg1,arg2){
+    console.log(arg1,arg2)
+   }
+   spreadExample(...a)
 
-    Output :
-     1 2
-   ```
+   Output :
+    1 2
+  ```
+
 ---
 
 💥 16. What’s the `rest operator` in Java Script ❓
@@ -489,26 +478,31 @@ restExample(1,2,10,30,50,60) //153
 
 - 🎯 `Spread Operator - Use Cases `: Arrays, Function Calls, Objects.
 
-- 🎯 `Spread Operator - Purpose ` :  Expands elements or properties.
+- 🎯 `Spread Operator - Purpose ` : Expands elements or properties.
 
 - 🎯 `Rest Operator - Use Cases` : Function Parameters, Array/Object Destructuring.
 
-- 🎯 `Rest Operator - Purpose ` : Collects multiple elements into an array/object
- 
+- 🎯 `Rest Operator - Purpose ` : Collects multiple elements into an array/object.
 
+---
 
+💥18. What is `destructuring`❓
 
+- 🎯 Destructuring in JavaScript is a feature introduced in ES6
 
-    
+- 🎯 It allows us to extract values from arrays or properties from objects into distinct variables.
 
+- 🎯It makes code more concise and readable, particularly when dealing with large objects or arrays.
 
+```
+const user = {
+ "age" : 20,
+ "myName" : "Kapil"
+  }
 
+  const {age,myName} = user
+  console.log(age,myName) // Output : 20, "Kapil"
 
-
-
-
-      
-
-
-
-
+const [a,b] = [1,2]
+console.log(a,b) // Output: 1,2
+```

@@ -5,7 +5,7 @@
 <!-- TOC_START -->
 | No. | Questions |
 | --- | --------- |
-| 1 | What is Java Script|
+| 1 | [What is Java Script](#what-is-javascript)|
 | 2 | What are features of Java Script|
 | 3 | Why Java Script is called client side scripting language|
 | 4 | Is Java Script a dynamically typed language or a statically typed language |
@@ -25,9 +25,11 @@
 | 18 | What is destructuring |
 
 ---
-💥1.   What is `Java Script` ❓
+ 1. ### What is `Java Script` ❓
 
 - 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
+
+**[⬆ Back to Top](#table-of-contents)**
 
 ---
 

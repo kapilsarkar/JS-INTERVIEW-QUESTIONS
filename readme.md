@@ -5,11 +5,11 @@
 <!-- TOC_START -->
 | No. | Questions |
 | --- | --------- |
-| 1 | [What is Java Script](#what-is-javascript)|
-| 2 | What are features of Java Script|
-| 3 | Why Java Script is called client side scripting language|
-| 4 | Is Java Script a dynamically typed language or a statically typed language |
-| 5 | Java Script is a compiled or interpreted language |
+| 1 | [What is Java Script](#what-is-javascript) |
+| 2 | [What are features of Java Script](#what-are-features-of-javascript)|
+| 3 | [Why Java Script is called client side scripting language](#why-javascript-is-called-client-side-scripting-language)|
+| 4 | [Is Java Script a dynamically typed language or a statically typed language](#is-javascript-a-dynamically-typed-language-or-a-statically-typed-language) |
+| 5 | [Java Script is a compiled or interpreted language](#javascript-is-a-compiled-or-interpreted-language) |
 | 6 | What are different data types in Java Script |
 | 7 | What is Hoisting in Java Script |
 | 8 | What are the various things hoisted in Java Script |
@@ -25,7 +25,7 @@
 | 18 | What is destructuring |
 
 ---
- 1. ### What is `Java Script` ❓
+1. ### What is `JavaScript` ? 
 
 - 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
@@ -33,7 +33,7 @@
 
 ---
 
-💥 2.  What are features of `Java Script` ❓
+2. ###  What are features of `JavaScript` ?
 
 - 🎯 Some key features of Java Script :
 
@@ -45,15 +45,19 @@
 
 - 🎯It provides a rich set of build in `functions` and `libraries`.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ---
 
-💥 3. Why `Java Script` is called client side scripting language ❓
+ 3. ### Why `JavaScript` is called client side scripting language ?
 
 - 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ---
 
-💥 4. Is `Java Script` a `dynamically` typed language or a `statically` typed language ❓
+4. ### Is `JavaScript` a `dynamically` typed language or a `statically` typed language ?
 
 - 🎯 `Java Script` is a `dynamically` typed language.
 
@@ -71,7 +75,7 @@ console.log(a) // Output: "Hello"
 
 ---
 
-💥 5. `Java Script` is a `compiled` or `interpreted` language ❓
+5. ### `JavaScript` is a `compiled` or `interpreted` language ?
 
 - 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
 

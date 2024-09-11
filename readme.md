@@ -24,14 +24,13 @@
 | 17 | Key differences between spread and rest operator in Java Script |
 | 18 | What is destructuring |
 
----
+
 1. ### What is `JavaScript` ? 
 
 -  `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 **[⬆ Back to Top](#table-of-contents)**
 
----
 
 2. ###  What are features of `JavaScript` ?
 
@@ -47,23 +46,22 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
----
 
  3. ### Why `JavaScript` is called client side scripting language ?
 
-- 🎯 `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
+-  `Java Script` is often referred to as a `"client-side scripting language"` because it primarily runs in the user's web browser, which is considered the "client" in the `client-server architecture` of web applications.
 
 **[⬆ Back to Top](#table-of-contents)**
 
----
+
 
 4. ### Is `JavaScript` a `dynamically` typed language or a `statically` typed language ?
 
-- 🎯 `Java Script` is a `dynamically` typed language.
+- `Java Script` is a `dynamically` typed language.
 
-- 🎯 It means all type checks are done at run time ( When program is executing )
+-  It means all type checks are done at run time ( When program is executing )
 
-- 🎯 So, we can just assign anything to the variable and it works fine.
+-  So, we can just assign anything to the variable and it works fine.
 
 ```
 let a;
@@ -73,17 +71,17 @@ a = "Hello"
 console.log(a) // Output: "Hello"
 ```
 
----
+
 
 5. ### `JavaScript` is a `compiled` or `interpreted` language ?
 
-- 🎯`Java Script` is a compiled language but java script is not purely interpreted language.
+- `Java Script` is a compiled language but java script is not purely interpreted language.
 
-- 🎯`Interpreted :` Code is not being read at all and execution is started.
+- `Interpreted :` Code is not being read at all and execution is started.
 
-- 🎯`Compiled :` Code is read at least once and then only it starts execution.
+- `Compiled :` Code is read at least once and then only it starts execution.
 
----
+
 
 💥 6. What are different `data types` in `Java Script` ❓
 

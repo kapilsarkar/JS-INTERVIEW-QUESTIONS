@@ -27,7 +27,7 @@
 ---
 1. ### What is `JavaScript` ? 
 
-- 🎯 `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
+-  `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -35,15 +35,15 @@
 
 2. ###  What are features of `JavaScript` ?
 
-- 🎯 Some key features of Java Script :
+- Some key features of Java Script :
 
-- 🎯It is a `client side` scripting language.
+- It is a `client side` scripting language.
 
-- 🎯It is `interpreted` and `dynamically` typed.
+- It is `interpreted` and `dynamically` typed.
 
-- 🎯It supports `object oriented programming`.
+- It supports `object oriented programming`.
 
-- 🎯It provides a rich set of build in `functions` and `libraries`.
+- It provides a rich set of build in `functions` and `libraries`.
 
 **[⬆ Back to Top](#table-of-contents)**
 

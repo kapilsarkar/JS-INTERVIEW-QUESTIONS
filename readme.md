@@ -24,15 +24,14 @@
 | 17 | Key differences between spread and rest operator in Java Script |
 | 18 | What is destructuring |
 
-
-1. ### What is `JavaScript` ? 
+1.  ### What is `JavaScript` ? 
 
 -  `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 
-2. ###  What are features of `JavaScript` ?
+2. ### What are features of `JavaScript` ?
 
 - Some key features of Java Script :
 
@@ -83,7 +82,7 @@ console.log(a) // Output: "Hello"
 
 
 
-💥 6. What are different `data types` in `Java Script` ❓
+ 6. What are different `data types` in `Java Script` 
 
 - 🎯In `Java Script` data types are categorized into 2 main types `primitive` and `non-primitive`
 

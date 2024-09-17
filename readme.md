@@ -1,4 +1,4 @@
-### ⭐ JAVA SCRIPT INTERVIEW QUESTIONS ❓ :
+###  JAVA SCRIPT INTERVIEW QUESTIONS  :
 
 ### Table of Contents
 
@@ -23,6 +23,8 @@
 | 16 | What’s the rest operator in Java Script|
 | 17 | Key differences between spread and rest operator in Java Script |
 | 18 | What is destructuring |
+| 19 | What are modules in Java Script |
+| 20 | What is the difference between 'Pass by Value'  and 'Pass by Reference' |
 
 1.  ### What is `JavaScript` ? 
 
@@ -569,3 +571,28 @@ const user = {
 const [a,b] = [1,2]
 console.log(a,b) // Output: 1,2
 ```
+
+---
+
+19. ### What are `modules` in `Java Script` ?
+
+- `Modules` allows us to break down the large piece of code into smaller parts. `Modules` helps us to write more reusable and maintainable code.
+
+- `Modules` can be `imported` and `exported` using `import` and `export` statements.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---
+
+20. ### What is the difference between `Pass by Value` and `Pass by Reference` ?
+
+- In `JavaScript`, whenever a function is called,the `arguments` can be passed in two ways, either `pass by value` or `pass by reference`.
+
+  -  `Primitive` data types such as string, number boolean,null and undefined are `passed by value`.
+
+  - `Non-primitive` data types such as object,arrays or functions are `passed by reference`.
+
+
+- In` Pass by value`, parameters passed as an arguments creates their own copy. So any changes made inside the function are made to the copied value so it will not affect the original value. 
+
+- In `Pass by reference`, parameters passed as an arguments does not creates their own copy. so any changes made inside the function will affect the original value.

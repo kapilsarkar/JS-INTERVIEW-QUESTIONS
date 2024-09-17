@@ -572,6 +572,8 @@ const [a,b] = [1,2]
 console.log(a,b) // Output: 1,2
 ```
 
+**[⬆ Back to Top](#table-of-contents)**
+
 ---
 
 19. ### What are `modules` in `Java Script` ?

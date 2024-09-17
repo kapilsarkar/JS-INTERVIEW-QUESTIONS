@@ -596,3 +596,7 @@ console.log(a,b) // Output: 1,2
 - In` Pass by value`, parameters passed as an arguments creates their own copy. So any changes made inside the function are made to the copied value so it will not affect the original value. 
 
 - In `Pass by reference`, parameters passed as an arguments does not creates their own copy. so any changes made inside the function will affect the original value.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+---

@@ -30,6 +30,27 @@
 
 -  `Java Script` is a programming language that is primarily used for creating interactive web pages and web applications.
 
+- `Webpages vs Web Applications` :
+
+- `Web-Pages` : 
+
+- Static content focused on delivering information.
+
+- Limited interactivity, mainly text, images, and links.
+
+- Examples: Blogs, news articles, and portfolio websites.
+
+- `Web-Applications`: 
+
+- Dynamic and interactive, designed for user engagement.
+
+- Often includes user input, real-time updates, and complex features.
+
+- Examples: Online banking, e-commerce platforms, and social media sites
+
+`In short, web pages inform, while web applications engage and perform tasks.`
+
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
